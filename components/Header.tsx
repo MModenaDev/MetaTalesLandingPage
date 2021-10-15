@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = () => {
 						type="submit"
 						onClick={() => scrollBottom()}
 					>
-						SIGN UP
+						Sign Up
 					</button>
 				</div>
 			</div>

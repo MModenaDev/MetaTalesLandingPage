@@ -39,7 +39,7 @@ const SectionForm: React.FC<SectionFormProps> = () => {
 	});
 
 	return (
-		<section className="w-full px-8 md:px-20 lg:px-40 xl:px-40 py-8 mb-8 flex flex-wrap justify-center">
+		<section className="w-full px-8 md:px-20 lg:px-40 xl:px-60 py-8 mb-8 flex flex-wrap justify-center">
 			<Image src="/join.svg" height={180} width={240} layout="fixed" />
 			{error &&
 				<div className="flex flex-col justify-center ml-4 max-w-lg">
@@ -60,7 +60,9 @@ const SectionForm: React.FC<SectionFormProps> = () => {
 					<input className="p-2 border-b border-tertiary bg-primary" placeholder="Name" {...register("name", { required: true })} />
 					<input className="p-2 border-b border-tertiary bg-primary" placeholder="Email" type="email" {...register("email", { required: true })} />
 					{(errors.email || errors.name) && <p className="text-red-400 italic">Required name and valid email</p>}
-					<button className="p-4 font-bold rounded-2xl border border-primary bg-tertiary text-primary hover:text-tertiary hover:bg-primary hover:border-tertiary transition-colors" type="submit">SIGN UP</button>
+					<button className="p-4 font-bold rounded-2xl border border-primary bg-tertiary text-primary hover:text-tertiary hover:bg-primary hover:border-tertiary transition-colors" type="submit">
+						Get early access
+					</button>
 					<p className="text-sm italic">No spams, pinky promise</p>
 				</form>
 			}
