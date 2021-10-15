@@ -10,8 +10,8 @@ const SectionHeader: React.FC<SectionHeaderProps> = () => {
 	}
 
 	return (
-		<section className="w-full h-80vh bg-secondary px-8 md:px-80 py-16 flex flex-col justify-end">
-			<Image src="http://placekitten.com/g/160/160" height={160} width={160} layout="fixed" />
+		<section className="w-full h-80vh bg-secondary px-8 md:px-20 lg:px-40 xl:px-40 py-16 flex flex-col justify-end">
+			<Image src="/logo.png" height={160} width={160} layout="fixed" />
 			<h1 className="text-6xl text-tertiary mt-2"><strong>MetaTales</strong></h1>
 			<h2 className="text-2xl text-primary mt-8 italic">Awesome one liner</h2>
 			<button

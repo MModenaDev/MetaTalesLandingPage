@@ -6,9 +6,9 @@ type SectionUtilitiesProps = {}
 
 const SectionUtilities: React.FC<SectionUtilitiesProps> = () => {
 	return (
-		<section className="w-full px-8 md:px-80 py-16 text-center mb-4">
+		<section className="w-full px-8 md:px-20 lg:px-40 xl:px-40 py-16 text-center mb-4">
 			<h3 className="text-3xl pb-8"><strong>Utilities</strong></h3>
-			<div className="flex justify-between gap-8">
+			<div className="flex flex-wrap lg:flex-nowrap justify-between gap-8">
 				<div className="flex flex-col items-center">
 					<Image src="/gaming.svg" height={120} width={250} layout="fixed" />
 					<p className="mt-2">

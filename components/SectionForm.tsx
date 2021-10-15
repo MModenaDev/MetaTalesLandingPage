@@ -39,7 +39,7 @@ const SectionForm: React.FC<SectionFormProps> = () => {
 	});
 
 	return (
-		<section className="w-full px-8 md:px-80 py-8 mb-8 flex justify-center">
+		<section className="w-full px-8 md:px-20 lg:px-40 xl:px-40 py-8 mb-8 flex flex-wrap justify-center">
 			<Image src="/join.svg" height={180} width={240} layout="fixed" />
 			{error &&
 				<div className="flex flex-col justify-center ml-4 max-w-lg">

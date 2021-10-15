@@ -6,8 +6,8 @@ type FooterProps = {}
 
 const Footer: React.FC<FooterProps> = () => {
 	return (
-		<footer className="border-t border-tertiary px-8 md:px-80 pt-8 pb-16">
-			<div className="flex justify-between pb-4 border-b border-tertiary">
+		<footer className="border-t border-tertiary px-8 md:px-20 lg:px-40 xl:px-40 pt-8 pb-16">
+			<div className="flex flex-wrap gap-4 justify-between pb-4 border-b border-tertiary">
 				<Link href="/faq"><a>MetaTales</a></Link>
 				<nav className="flex gap-4 md:gap-20">
 					<Link href="/faq"><a className="hover:text-tertiary transition-colors">FAQ</a></Link>

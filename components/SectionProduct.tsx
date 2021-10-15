@@ -23,7 +23,7 @@ type SectionProductProps = {}
 
 const SectionProduct: React.FC<SectionProductProps> = () => {
 	return (
-		<section className="w-full px-8 md:px-80 py-16 flex flex-col justify-center items-center">
+		<section className="w-full px-8 md:px-20 lg:px-40 xl:px-40 py-16 flex flex-col justify-center items-center">
 			<h3 className="text-3xl pb-1"><strong>How it works</strong></h3>
 			<div className="flex flex-col items-center">
 				<h4 className="text-2xl pb-4"><em>Tale, the storytellers NFT</em></h4>
@@ -38,7 +38,7 @@ const SectionProduct: React.FC<SectionProductProps> = () => {
 				</p>
 			</div>
 			<div className="flex gap-8">
-				{tales.map(tale => (
+				{tales.map((tale, idx) => (
 					<Tale
 						key={tale.name}
 						universe={tale.universe}
@@ -46,6 +46,7 @@ const SectionProduct: React.FC<SectionProductProps> = () => {
 						type={tale.type}
 						name={tale.name}
 						description={tale.description}
+						className={`${(idx !== 0) ? "hidden md:flex" : "flex"}`}
 					/>
 				))}
 			</div>
