@@ -12,13 +12,13 @@ const Header: React.FC<HeaderProps> = () => {
 	}
 
 	return (
-		<header className="bg-primary px-8 md:px-60 py-4 border-b border-mt-red">
+		<header className="bg-primary px-8 md:px-60 py-4 border-b border-MTred">
 			<div className="flex flex-wrap gap-4 justify-between items-center">
-				<Link href="/"><a className="text-bold text-mt-red text-2xl">MetaTales</a></Link>
+				<Link href="/"><a className="text-bold text-MTred text-2xl">MetaTales</a></Link>
 				<div className="flex flex-wrap gap-4">
 					<Menu />
 					<button
-						className="py-1 px-3 font-bold border border-mt-red rounded-2xl bg-mt-red text-primary hover:text-mt-red hover:bg-primary transition-colors"
+						className="py-1 px-3 font-bold border border-MTred rounded-2xl bg-MTred text-primary hover:text-MTred hover:bg-primary transition-colors"
 						type="submit"
 						onClick={() => scrollBottom()}
 					>

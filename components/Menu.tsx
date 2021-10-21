@@ -10,9 +10,9 @@ const Menu: React.FC<MenuProps> = () => {
 
 	const generateClass = (route: string) => {
 		if (router.asPath === route) {
-			return "hover:text-mt-red transition-colors border-b border-mt-red"
+			return "hover:text-MTred transition-colors border-b border-MTred"
 		} else {
-			return "hover:text-mt-red transition-colors"
+			return "hover:text-MTred transition-colors"
 		}
 	}
 
