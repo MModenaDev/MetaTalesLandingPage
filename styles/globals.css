@@ -1,3 +1,11 @@
+:root {
+    --color-primary: #1F1F1F;
+    --color-secondary: #FDF6F6;
+    --color-MTred: #E25A5A;
+    --color-MTpurple: #5338DC;
+    --color-MTblue: #1FAD98;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

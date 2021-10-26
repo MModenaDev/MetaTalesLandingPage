@@ -3,13 +3,16 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      'sans': ['Poppins', 'Helvetica', 'Arial', 'sans-serif'],
+    },
     extend: {
       colors: {
-        'primary': '#1F1F1F',
-        'secondary': '#FDF6F6',
-        'MTred': '#E25A5A',
-        'MTpurple': '#5338DC',
-        'MTblue': '#1FAD98',
+        'primary': 'var(--color-primary)',
+        'secondary': 'var(--color-secondary)',
+        'MTred': 'var(--color-MTred)',
+        'MTpurple': 'var(--color-MTpurple)',
+        'MTblue': 'var(--color-MTblue)',
       },
       spacing: {
         '80vh': '80vh',
