@@ -9,7 +9,7 @@ const Roadmap: NextPage = () => {
 			<Head>
 				<title>Roadmap</title>
 				<meta name="description" content="MetaTales Roadmap" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/logo.ico" />
 			</Head>
 
 			<Building />

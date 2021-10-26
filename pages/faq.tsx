@@ -9,7 +9,7 @@ const Faq: NextPage = () => {
 			<Head>
 				<title>FAQ</title>
 				<meta name="description" content="Frequently Asked Questions for MetaTales" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/logo.ico" />
 			</Head>
 
 			<Building />

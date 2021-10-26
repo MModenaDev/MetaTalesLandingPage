@@ -9,7 +9,7 @@ const Manifesto: NextPage = () => {
 			<Head>
 				<title>Manifesto</title>
 				<meta name="description" content="MetaTales Manifesto" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/logo.ico" />
 			</Head>
 
 			<Building />
