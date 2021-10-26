@@ -7,7 +7,7 @@ type LayoutProps = {}
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
 	return (
-		<div className="bg-primary text-secondary">
+		<div className="bg-primary text-secondary font-sans">
 			<Header />
 			{children}
 			<Footer />
