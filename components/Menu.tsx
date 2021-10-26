@@ -19,8 +19,8 @@ const Menu: React.FC<MenuProps> = () => {
 	return (
 		<nav className="flex gap-3 md:gap-8 items-center">
 			<Link href="/faq"><a className={generateClass("/faq")}>FAQ</a></Link>
-			<Link href="/manifesto"><a className={generateClass("/manifesto")}>Manifesto</a></Link>
-			<Link href="/roadmap"><a className={generateClass("/roadmap")}>Roadmap</a></Link>
+			{/* <Link href="/manifesto"><a className={generateClass("/manifesto")}>Manifesto</a></Link> */}
+			{/* <Link href="/roadmap"><a className={generateClass("/roadmap")}>Roadmap</a></Link> */}
 			<Link href="/team"><a className={generateClass("/team")}>Team</a></Link>
 		</nav>
 	);

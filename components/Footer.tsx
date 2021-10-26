@@ -11,14 +11,14 @@ const Footer: React.FC<FooterProps> = () => {
 				<Link href="/faq"><a>MetaTales</a></Link>
 				<nav className="flex gap-4 md:gap-20">
 					<Link href="/faq"><a className="hover:text-MTred transition-colors">FAQ</a></Link>
-					<Link href="/manifesto"><a className="hover:text-MTred transition-colors">Manifesto</a></Link>
-					<Link href="/roadmap"><a className="hover:text-MTred transition-colors">Roadmap</a></Link>
+					{/* <Link href="/manifesto"><a className="hover:text-MTred transition-colors">Manifesto</a></Link> */}
+					{/* <Link href="/roadmap"><a className="hover:text-MTred transition-colors">Roadmap</a></Link> */}
 					<Link href="/Team"><a className="hover:text-MTred transition-colors">Team</a></Link>
 				</nav>
 			</div>
-			<div className="flex justify-between mt-4">
+			<div className="flex mt-4">
 				<p className="text-sm italic">made with love</p>
-				<p className="text-sm italic">terms of service</p>
+				{/* <p className="text-sm italic">terms of service</p> */}
 			</div>
 		</footer>
 	)
