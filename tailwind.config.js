@@ -15,7 +15,12 @@ module.exports = {
         'MTblue': 'var(--color-MTblue)',
       },
       spacing: {
-        '80vh': '80vh',
+        '90vh': '90vh',
+      },
+      backgroundImage: {
+        'worldSM': "url('/world-bg-sm.png')",
+        'worldMD': "url('/world-bg-md.png')",
+        'worldLG': "url('/world-bg-lg.png')",
       },
     },
   },

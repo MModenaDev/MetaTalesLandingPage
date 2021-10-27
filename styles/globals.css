@@ -13,3 +13,7 @@
 html {
     scroll-behavior: smooth;
 }
+
+.customRedUnderline {
+    text-decoration-color: var(--color-MTred);
+}
