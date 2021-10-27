@@ -43,12 +43,12 @@ const SectionForm: React.FC<SectionFormProps> = () => {
 			<Image src="/join.svg" height={180} width={240} layout="fixed" />
 			{error &&
 				<div className="flex flex-col justify-center ml-4 max-w-lg">
-					<p>Oops an error occuMTred, try again later!</p>
+					<p>Oops an error occuMTpurple, try again later!</p>
 				</div>
 			}
 			{(!error && signedUp) &&
 				<div className="flex flex-col justify-center items-center ml-4 max-w-lg">
-					<h4 className="text-2xl text-bold mb-4 text-MTred">Thank you for joining us!</h4>
+					<h4 className="text-2xl text-bold mb-4 text-MTpurple">Thank you for joining us!</h4>
 					<p className="mb-4">To fully use our product, join our discord below!</p>
 					<a href="https://discord.gg/FYmM6YT24X" className="w-full flex justify-center border border-secondary rounded-2xl px-4 py-2">
 						<Image src="/discord-logo.svg" height={40} width={40} layout="fixed" />
@@ -57,10 +57,10 @@ const SectionForm: React.FC<SectionFormProps> = () => {
 			}
 			{(!error && !signedUp) &&
 				<form onSubmit={handleSubmit(onSubmit)} className="flex flex-col flex-grow gap-4 justify-center ml-4 max-w-lg">
-					<input className="p-2 border-b border-MTred bg-primary" placeholder="Name" {...register("name", { required: true })} />
-					<input className="p-2 border-b border-MTred bg-primary" placeholder="Email" type="email" {...register("email", { required: true })} />
+					<input className="p-2 border-b border-MTpurple bg-primary" placeholder="Name" {...register("name", { required: true })} />
+					<input className="p-2 border-b border-MTpurple bg-primary" placeholder="Email" type="email" {...register("email", { required: true })} />
 					{(errors.email || errors.name) && <p className="text-red-400 italic">Required name and valid email</p>}
-					<button className="p-4 font-bold rounded-2xl border border-primary bg-MTred text-primary hover:text-MTred hover:bg-primary hover:border-MTred transition-colors" type="submit">
+					<button className="p-4 font-bold rounded-2xl border border-primary bg-MTpurple text-primary hover:text-MTpurple hover:bg-primary hover:border-MTpurple transition-colors" type="submit">
 						Get early access
 					</button>
 					<p className="text-sm italic">No spams, pinky promise</p>

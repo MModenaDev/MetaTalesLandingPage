@@ -10,23 +10,19 @@ const SectionHeader: React.FC<SectionHeaderProps> = () => {
 	}
 
 	return (
-		<section className="w-full bg-no-repeat bg-right-top bg-worldSM md:bg-worldMD lg:bg-worldLG h-90vh px-8 md:px-20 lg:px-40 xl:px-60 py-16 flex flex-col justify-end border-b border-MTred">
-			<div className="flex flex-wrap items-center">
-				<Image src="/logo.png" height={160} width={160} />
-				<div className="mt-4 md:mt-0 md:ml-4">
-					<h1 className="text-4xl sm:text-6xl text-MTred"><strong>MetaTales</strong></h1>
-					<h2 className="text-2xl sm:text-4xl text-MTred textOutline mt-4">Capitalize on your imagination</h2>
-				</div>
+		<section className="w-full bg-secondary bg-no-repeat bg-bottom bg-worldMD md:bg-worldLG h-90vh px-8 md:px-20 lg:px-40 xl:px-60 py-16 flex flex-col justify-between items-center border-b border-MTpurple">
+			<div className="pt-40 text-center">
+				<h2 className="text-4xl sm:text-4xl text-MTpurple"><strong>Descentralized fiction universes</strong></h2>
+				<h3 className="text-xl sm:text-2xl text-primary mt-8">Invest and colaborate in NFT collections created by strong communities</h3>
 			</div>
-			<h3 className="text-xl sm:text-2xl mt-8">Create, grow and motize fictional Universes via community-based NFTs</h3>
 			<button
-				className="mt-16 p-4 font-bold border border-MTred rounded-2xl bg-MTred text-primary hover:text-MTred hover:bg-primary w-full sm:w-80 md:w-96 transition-colors"
+				className="mt-16 p-4 font-bold border border-MTpurple rounded-2xl bg-MTpurple hover:text-MTpurple hover:bg-secondary w-full sm:w-80 md:w-96 transition-colors"
 				type="button"
 				onClick={() => scrollBottom()}
 			>
-				Apply now to become part of season 1
+				Check out Season Zero
 			</button>
-		</section>
+		</section >
 	)
 }
 

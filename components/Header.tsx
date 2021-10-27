@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import Link from 'next/link'
+import Image from 'next/image'
 
 import Menu from './Menu'
 
@@ -8,9 +9,12 @@ type HeaderProps = {}
 
 const Header: React.FC<HeaderProps> = () => {
 	return (
-		<header className="bg-primary px-8 md:px-20 lg:px-40 xl:px-60 py-4 border-b border-MTred">
+		<header className="absolute w-full bg-transparent px-8 md:px-20 lg:px-40 xl:px-60 py-8">
 			<div className="flex flex-wrap gap-4 justify-between items-center">
-				<Link href="/"><a className="text-bold text-MTred text-2xl">MetaTales</a></Link>
+				<div className="flex items-center">
+					<Image src="/logo.png" height={32} width={32} />
+					<Link href="/"><a className="text-bold text-MTpurple text-2xl font-bold ml-2">MetaTales</a></Link>
+				</div>
 				<Menu />
 			</div>
 		</header>

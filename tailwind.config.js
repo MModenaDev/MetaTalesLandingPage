@@ -18,9 +18,9 @@ module.exports = {
         '90vh': '90vh',
       },
       backgroundImage: {
-        'worldSM': "url('/world-bg-sm.png')",
-        'worldMD': "url('/world-bg-md.png')",
-        'worldLG': "url('/world-bg-lg.png')",
+        'worldSM': "url('/world-bg-sm-bottom.png')",
+        'worldMD': "url('/world-bg-md-bottom.png')",
+        'worldLG': "url('/world-bg-lg-bottom.png')",
       },
     },
   },
