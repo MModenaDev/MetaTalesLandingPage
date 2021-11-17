@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 
 import SectionHeader from '../components/SectionHeader'
-import SectionHIW from '../components/SectionHIW'
 import SectionBenefits from '../components/SectionBenefits'
 import SectionDescription from '../components/SectionDescription'
 import SectionForm from '../components/SectionForm'
@@ -18,7 +17,6 @@ const Home: NextPage = () => {
       </Head>
 
       <SectionHeader />
-      <SectionHIW />
       <SectionDescription />
       <SectionBenefits />
       <SectionForm />

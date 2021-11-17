@@ -6,6 +6,10 @@ type SectionDescriptionProps = {}
 const SectionDescription: React.FC<SectionDescriptionProps> = () => {
 	return (
 		<section className="w-full px-8 md:px-20 lg:px-40 xl:px-60 py-16 mb-4">
+			<div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16 mb-16 md:mb-8">
+				<Image src="/tale.png" width="773" height="540" />
+				<Image src="/properties.png" width="538" height="581" />
+			</div>
 			<div className="flex flex-col-reverse md:flex-row justify-center items-center gap-8 md:gap-16 mb-16 md:mb-8">
 				<div className="md:text-right">
 					<h5 className="text-2xl mb-4 underline customRedUnderline"><strong>Your community has characters and stories</strong></h5>
